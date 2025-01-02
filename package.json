@@ -1,0 +1,73 @@
+{
+  "name": "event-application-sunrise",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.3.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "ajv": "^8.17.1",
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "cra-template-typescript": "1.2.0",
+    "crypto-browserify": "^3.12.1",
+    "dotenv": "^16.4.7",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.12.0",
+    "net": "^1.0.2",
+    "net-browserify": "^0.2.4",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-scripts": "5.0.1",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.5",
+    "stream-browserify": "^3.0.0",
+    "timers-browserify": "^2.0.12",
+    "tls": "^0.0.1",
+    "tls-browserify": "^0.2.2",
+    "typeorm": "^0.3.20",
+    "url": "^0.11.4",
+    "util": "^0.12.5",
+    "uuid": "^11.0.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.3",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "react-app-rewired": "^2.2.1",
+    "typescript": "^4.9.5"
+  }
+}
